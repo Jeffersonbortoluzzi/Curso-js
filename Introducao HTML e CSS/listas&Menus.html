@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Testando Listas e Menus</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+ 
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            text-align: auto;
+            margin: auto;
+        }
+ 
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center; 
+        }
+ 
+        nav #logo a{
+            display: flex;
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            padding: 16px 20px;
+        }
+ 
+        nav a:hover{
+            background-color: rgb(103, 197, 100);
+        }
+ 
+        nav ul a{
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+ 
+        nav ul li a{
+            display: block;
+            padding: 16px 20px;
+        }
+ 
+        body{
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/410/494/431/racing-f1-car-formula-1-race-car-hd-wallpaper-preview.jpg);
+            background-color: black; 
+            background-size: auto;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav ul{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+           <a href="#">F1</a>
+        </div>
+        <ul>
+            <li><a href="#">Races</a></li>
+            <li><a href="#">Ranking</a></li>
+            <li><a href="#">Teams</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
