@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario e Inputs</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulário</p>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"
+            placeholder="Digite seu nome">
+        </p>
+
+        <p>
+            <label for="dev1">Sou um Desenvolvedor1:</label>
+            <input type="checkbox" id="dev1" name="dev1" value="sim"><br>
+            <label for="dev2">Sou um Desenvolvedor2:</label>
+            <input type="checkbox" id="dev2" name="dev2" value="sim"><br>
+            <label for="dev3">Sou um Desenvolvedor3:</label>
+            <input type="checkbox" id="dev3" name="dev3" value="sim">
+        </p>
+
+        <p>
+            Gênero:<br>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Masculino" name="genero" value="sim"><br>
+            <label for="Feminino">Feminino</label>
+            <input type="radio" id="Feminino" name="genero" value="sim">
+        </p>
+
+        <p>
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" value="2022-07-04">
+        </p>
+
+        <p>
+            <label for="datetime">Data:</label>
+            <input type="datetime-local" id="datetime" name="datetime" value="2022-07-04T21:00:00">
+        </p>
+
+        <p>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" value="20:00:00">
+        </p>
+
+        <p>
+            <label for="cor">Cor favorita:</label>
+            <input type="color" id="cor" name="cor" value="#FF6600">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">     
+        </p>
+
+        <p>
+            <label for="file">Sua foto:</label>
+            <input type="file" id="file" name="file" accept=".png,.svg,image/*" multiple> 
+        </p>
+
+        <p>
+            <label for="number">Número:</label>
+            <input type="number" id="number" name="number" placeholder="Digite seu número" min="1" max="90">     
+        </p>
+
+        
+
+        <p>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha">     
+        </p>
+
+        <p>
+            <label for="url">Sua URL:</label>
+            <input type="url" id="url" name="url" placeholder="URL">     
+        </p>
+
+        <p>
+            <label for="search">Sua URL:</label>
+            <input type="search" id="search" name="search" placeholder="search">     
+        </p>
+
+        <p>
+          <label for="select">Selecione alguma opção:</label>
+          <select id="select" name="select" placeholder="Selecione alguma opção">
+            <option value="qualquer coisa 1" label="label 1">Valor</option>
+            <option value="qualquer coisa 2" label="label 2">Valor</option>
+            <option value="qualquer coisa 3" label="label 3">Valor</option>
+            <option value="qualquer coisa 4" label="label 4">Valor</option>
+            <option value="qualquer coisa 5" label="label 5">Valor</option>
+            <option value="qualquer coisa 6" label="label 6">Valor</option>
+          </select>
+        </p>
+
+        <p>
+            <label for="textarea">textarea:</label>
+            <textarea type="textarea" id="textarea" name="textarea" rows="8" cols="9" placeholder="textarea"></textarea>   
+        </p>
+
+        <p>
+            <button type="submit">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+    
+</body>
+</html>
