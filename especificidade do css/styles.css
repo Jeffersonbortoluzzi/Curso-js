@@ -1,0 +1,27 @@
+/* 
+ID   Classes, atributos e pseudo-classes       Elementos e pseudo-elementos 
+1       0                                        0
+1       1                                        0
+1       1                                        0 
+1       0                                        1
+1       1                                        1
+2       2                                        2
+
+*/
+/* !important = força o navegador a usar o elemento */
+
+#p {
+    background: orchid;
+}
+
+#p.p {
+    background: greenyellow;
+}
+
+p#p {
+    background: red;
+}
+
+body#b.bclass p#p.p {
+    background: cadetblue;
+}
